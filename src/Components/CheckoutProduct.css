@@ -1,0 +1,24 @@
+.checkoutproduct{
+    display: flex;
+}
+.checkoutproductimage{
+    object-fit: contain;
+    width: 180px;
+    height: 180;
+}
+
+.checkoutproductInfo{
+    padding-left: 20px ;
+}
+
+.checkoutproductRating{
+    display: flex;
+
+}
+.checkoutproduct{
+    margin-top: 20px;
+}
+.checkoutproductInfo > button{
+    margin-top: 10px;
+    width: 100%;
+}

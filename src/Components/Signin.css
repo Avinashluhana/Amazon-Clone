@@ -1,0 +1,58 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin: 100px;
+  height: fit-content;
+}
+
+.signinContainer > h1 {
+  font-weight: 500;
+}
+
+.loginContainer > button {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 {
+  width: 100%;
+}
+.amazonlogo {
+  height: 80px;
+  align-items: center;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.button1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) and (max-width: 360px) and (max-width: 568px) {
+  .amazonlogo {
+    height: 50px !important;
+  }
+  .loginContainer {
+    height: 1500px !important;
+    margin-top: 50px !important;
+  }
+}

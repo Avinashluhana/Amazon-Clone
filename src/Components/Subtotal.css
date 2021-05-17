@@ -1,0 +1,64 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+
+}
+
+.subtotalGift{
+    display: flex;
+    align-items: center;
+}
+
+.subtotalGift > input{
+    margin-right: 5px;
+}
+
+.subtotal > button{
+    background-color: #f0c14b !important;
+    width: 70%;
+    height: 35px;
+    size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) and (max-width:360px) and (max-width: 568px)
+{
+    .subtotal{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 3px;
+        position: absolute;
+        right: 0;
+        font-size: 10px !important  ;
+
+    
+    }
+
+    .subtotal > button{
+        background-color: #f0c14b !important;
+        width: 20%;
+        height: 25px;
+        size: 10px;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 8px !important;
+        margin-bottom: 30px !important;
+    
+
+    }
+}

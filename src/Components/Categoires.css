@@ -1,0 +1,11 @@
+.main{
+    background-color: grey;
+    color: white;
+    display: flex;
+}
+
+.cat{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:  20px;
+}

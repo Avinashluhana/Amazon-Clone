@@ -1,0 +1,25 @@
+.home{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+    margin-top: 20px !important;
+    height: 250px !important;   
+}
+
+.row1{
+    display:flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px){
+    .carousel-inner{
+        margin-top: 5px !important;
+        height: 80px !important;   
+
+}
+}

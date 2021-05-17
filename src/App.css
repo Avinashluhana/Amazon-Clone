@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+
+}
+
+@media only screen and (max-width: 1366px)
+{
+
+body {
+    width: auto;
+}
+
+}
